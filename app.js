@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // GET home page
 app.get("/", (req, res) => {
-  res.send("<H1>亲爱的，可爱的，热爱的侯亚琼的网站</H1>");
+  res.send("<H1>侯亚琼也太好看了吧！我好想和她啪啪啪！！</H1>");
 });
 
 // handle author-management related requests
