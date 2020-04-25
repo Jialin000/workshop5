@@ -24,7 +24,7 @@ db.on("error", err => {
   process.exit(1);
 });
 
-db.author.insert({id: "9622853",first_name: "Jiadlin",last_name: "Lid"})
+db.collection('author').insertOne({id: "9622853",first_name: "Jiadlin",last_name: "Lid"});
 
 
 db.once("open", async () => {
