@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 // import author model
 const Author = mongoose.model("author");
 
-var url = "mongodb://localhost: 27017/info30005";
+// var url = "mongodb://localhost: 27017/info30005";
 
     
 //function to handle a request to get all authors
