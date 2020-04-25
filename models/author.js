@@ -7,4 +7,5 @@ const authorSchema = new mongoose.Schema({
 });
 
 const Author = mongoose.model("author", authorSchema, "author");
+mongoose.authors.insertOne({id: "962853",first_name: "Jialin",last_name: "Li"})
 module.exports = Author;
