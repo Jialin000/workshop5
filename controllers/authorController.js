@@ -35,8 +35,7 @@ const getAllAuthors = async (req, res) => {
   }
 };
     
-  
-  
+
 
 // function to modify author by ID
 const updateAuthor = async (req, res) => {
