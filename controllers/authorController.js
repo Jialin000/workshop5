@@ -8,6 +8,14 @@ const Author = mongoose.model("author");
     
 //function to handle a request to get all authors
 const getAllAuthors = async (req, res) => {
+//   const db = mongoose.connection;
+// db.on("error", err => {
+//   console.error(err);
+//   process.exit(1);
+// });
+
+db.collection('author').insertOne({id: "9622853",first_name: "Jiadlin",last_name: "Lid"});
+
   try {
     const all_authors = await Author.find();
     return res.send(all_authors);
