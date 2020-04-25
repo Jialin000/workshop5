@@ -16,7 +16,6 @@ var url = "mongodb://localhost: 27017/info30005";
 //     return res.send("Database query failed");
 //   }
 // };
-
 const getAllAuthors = async (req, res) => {
   var resultArray = [];
   try {
