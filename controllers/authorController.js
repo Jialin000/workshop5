@@ -14,7 +14,7 @@ const getAllAuthors = async (req, res) => {
 //   process.exit(1);
 // });
 
-db.collection('author').insertOne({id: "9622853",first_name: "Jiadlin",last_name: "Lid"});
+db.collection('author').insertOne({id: "9853",first_name: "Jia",last_name: "L"});
 
   try {
     const all_authors = await Author.find();
