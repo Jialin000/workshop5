@@ -8,7 +8,7 @@ const Author = mongoose.model("author");
 const getAllAuthors = async (req, res) => {
     
   try {
-    const all_authors = await Author.find();
+    const all_authors = await authors.find();
     return res.send(all_authors);
   } catch (err) {
     res.status(400);

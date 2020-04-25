@@ -10,7 +10,7 @@ console.log(MONGO_URL);
 
 
 
-mongoose.connect(MONGO_URL || "mongodb://localhost/info30005", {
+mongoose.connect(MONGO_URL || "mongodb://localhost: 27017/info30005", {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true,
