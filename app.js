@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // GET home page
 app.get("/", (req, res) => {
-  res.send("<H1>小猴子！中午想吃什么呀！</H1>");
+  res.send("<H1>Library stystem!!!</H1>");
 });
 
 // handle author-management related requests
